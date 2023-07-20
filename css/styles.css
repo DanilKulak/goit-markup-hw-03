@@ -91,7 +91,6 @@ img {
 }
 .address {
   font-style: normal;
-  padding-left: 332px;
 }
 .header-logo {
   display: inline-block;
@@ -144,6 +143,7 @@ img {
 
 .main-title {
   max-width: 496px;
+  margin: 0 auto;
   color: var(--white, #fff);
   font-family: var(--font-primary);
   font-size: 56px;
@@ -153,6 +153,7 @@ img {
 }
 .text-btn {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
