@@ -95,6 +95,9 @@ img {
   padding-bottom: 24px;
   padding-top: 24px;
 }
+.header .container {
+  display: flex;
+}
 .address {
   font-style: normal;
 }
