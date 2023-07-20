@@ -97,6 +97,8 @@ img {
 }
 .header .container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .address {
   font-style: normal;
@@ -292,7 +294,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 .img-portfolio {
   width: calc((100% - 48px) / 3);
