@@ -92,8 +92,6 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   background-color: var(--white, #fff);
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 .header .container {
   display: flex;
@@ -112,8 +110,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
-  margin-bottom: 16px;
 }
 .logo-span {
   color: var(--navyblue, #2e2f42);
@@ -144,6 +140,7 @@ img {
   letter-spacing: 0.02em;
 }
 .header-item {
+  display: inline-block;
   padding: 24px 0;
 }
 .link:hover,
@@ -164,7 +161,7 @@ img {
 }
 .text-btn {
   display: block;
-  margin: 0 auto;
+  margin: 48px auto 0;
   min-width: 169px;
   height: 56px;
   border: none;
