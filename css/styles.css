@@ -8,7 +8,6 @@ body {
   color: var(--slate);
   background-color: var(--white);
   line-height: 1.66;
-  font-weight: 500;
 }
 :root {
   --font-primary: "Roboto", sans-serif;
@@ -119,6 +118,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 .header-list {
   display: flex;
   gap: 40px;
@@ -228,13 +231,15 @@ img {
 }
 .main-title-list {
   margin-bottom: 8px;
-  text-align: center;
   color: var(--navyblue, #2e2f42);
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.section-team .main-title-list {
+  text-align: center;
 }
 .main-text {
   color: var(--slate, #434455);
